@@ -13,7 +13,7 @@ class Node{
         Node* dir;
 
     public:
-        Node(Tripulante& tripulante): tripulante{tripulante} { }
+        Node(Tripulante& tripulante): tripulante{tripulante}, esq{nullptr}, dir{nullptr} { }
         ~Node();
         friend class FilaTrip;
 };
