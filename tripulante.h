@@ -5,13 +5,14 @@
 using namespace std;
 
 class Tripulante{
-    private:
+    public:
         string funcao;
     
     public:
         Tripulante(string funcaoDoTripulante): funcao{funcaoDoTripulante} {}
-        ~Tripulante();
+        ~Tripulante(){}
         friend class Node;
+        friend class filaTrip;
 };
 
 #endif

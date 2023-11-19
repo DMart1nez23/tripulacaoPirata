@@ -7,15 +7,15 @@
 using namespace std;
 
 class Node{
-    private:
+    public:
         Tripulante tripulante;
         Node* esq;
         Node* dir;
 
     public:
         Node(Tripulante& tripulante): tripulante{tripulante}, esq{nullptr}, dir{nullptr} { }
-        ~Node();
-        friend class FilaTrip;
+        ~Node(){ }
+        friend class filaTrip;
 };
 
 #endif
