@@ -11,17 +11,19 @@ class filaTrip{
         filaTrip();
         ~filaTrip();
         void destroi();
-        void retiraUm();
-        void retiraVarios();
-        void insereInicio();
-        void insereMeio();
-        void insereFim();
-        int getNumElement();
-        Node* getInicio();
-        Node* getFim();
+        bool retira();
+        bool enfileirar(Tripulante&);
+        bool haveMedico(Node* &);
+        bool haveCacador(Node* &);
+        int getNumElement() const;
         bool isVazia() const;
         bool isCheia() const;
 
-}
+        //funções teste
+        Node* getInicio() const;
+        Node* getHeader() const;
+        void exibirOrdemFila() const;
+
+};
 
 #endif
