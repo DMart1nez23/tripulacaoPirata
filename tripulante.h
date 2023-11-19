@@ -9,7 +9,8 @@ class Tripulante{
         string funcao;
     
     public:
-        Tripulante(string funcaoDoTripulante): funcao{funcaoDoTripulante} {}
+        Tripulante(string funcaoDoTripulante): 
+        funcao{funcaoDoTripulante} {}
         ~Tripulante(){}
         friend class Node;
         friend class filaTrip;
