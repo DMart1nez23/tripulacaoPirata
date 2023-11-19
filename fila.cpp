@@ -7,7 +7,7 @@ using namespace std;
 
 filaTrip:: filaTrip(): numElement{1}, max{MAX_LIMIT} {
     //inicializando o nó header;
-    Tripulante* capitao = new Tripulante("capitão");
+    Tripulante* capitao = new Tripulante("capitao");
     Header = new Node(*capitao);
     Header->dir = Header;
     Header->esq = Header;
@@ -61,6 +61,7 @@ bool filaTrip:: haveCacador(Node* &atual){
 
 bool filaTrip:: retira(){
     if(isVazia()){
+        cout << "A fila está vazia, impossivel retirar";
         return false;
     }
 
@@ -97,6 +98,7 @@ bool filaTrip:: retira(){
 
 bool filaTrip:: enfileirar(Tripulante& novoMarujo){
     if(isCheia()){
+        cout << "A fila está cheia, não foi possivel inserir";
         return false;
     }
 

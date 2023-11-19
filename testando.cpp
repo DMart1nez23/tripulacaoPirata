@@ -16,7 +16,7 @@ int main() {
 
     filaTrip fila1;
 
-    cout << "### Adicionando tripulantes a fila ###" << endl;
+    cout << "Adicionando tripulantes a fila" << endl;
     fila1.enfileirar(marujo);
     fila1.enfileirar(cacador);
     fila1.enfileirar(medico);
@@ -24,7 +24,7 @@ int main() {
 
     fila1.exibirOrdemFila();
 
-    cout << "### Verificando a presença de um medico na fila ###" << endl;
+    cout << "Verificando a presença de um medico na fila" << endl;
     Node* atualMedico = nullptr;
     if (fila1.haveMedico(atualMedico)) {
         cout << "Medico encontrado na fila." << endl;
@@ -33,18 +33,18 @@ int main() {
     }
     cout << endl;
 
-    cout << "### Removendo um tripulante ###" << endl;
+    cout << "Removendo um tripulante" << endl;
     fila1.retira();
 
     fila1.exibirOrdemFila();
 
-    cout << "### Adicionando mais tripulantes a fila ###" << endl;
+    cout << "Adicionando mais tripulantes a fila" << endl;
     fila1.enfileirar(musico);
     fila1.enfileirar(cozinheiro);
 
     fila1.exibirOrdemFila();
 
-    cout << "### Verificando a presença de um cacador na fila ###" << endl;
+    cout << "Verificando a presença de um cacador na fila" << endl;
     Node* atualCacador = nullptr;
     if (fila1.haveCacador(atualCacador)) {
         cout << "cacador encontrado na fila." << endl;
@@ -65,7 +65,7 @@ int main() {
 
     fila1.exibirOrdemFila();
 
-    cout << "### Esvaziando a fila ###" << endl;
+    cout << "Esvaziando a fila" << endl;
     fila1.destroi();
     return 0;
 }
