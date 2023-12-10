@@ -1,0 +1,10 @@
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\bin\Debug\Jogo 2.exe.config
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\bin\Debug\Jogo 2.exe
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\bin\Debug\Jogo 2.pdb
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo 2.csprojAssemblyReference.cache
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo_2.Form1.resources
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo_2.Properties.Resources.resources
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo 2.csproj.GenerateResource.cache
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo 2.csproj.CoreCompileInputs.cache
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo 2.exe
+C:\Users\emdie\Documents\vs code c sharp\Jogo 2\Jogo 2\obj\Debug\Jogo 2.pdb
